@@ -1,21 +1,12 @@
-import json
 from docx import Document as Doc
 from docx.document import Document
 from docx.oxml.table import CT_Tbl
 from docx.oxml.text.paragraph import CT_P
 from docx.table import _Cell, Table
 from docx.text.paragraph import Paragraph
-from copy import deepcopy
-from docx.oxml.ns import qn
 from lxml import etree
-from xml.dom.minidom import parseString
-from docx.shared import Pt
-import openpyxl
 import os
-import sys
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-import requests
-from urllib.parse import urlparse
 
 import process_num
 

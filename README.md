@@ -18,3 +18,8 @@
 - **实现文件**: `./scripts/document_split.py`中`iter_block_items()`方法
 - **输出格式**: 保持文档逻辑顺序的结构化数据
 - **应用场景**: 为后续的文档分析、内容检索和信息处理提供标准化数据输入
+
+## Requirements
+- python-docx
+- lxml
+- re
